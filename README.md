@@ -31,5 +31,5 @@ uvicorn app.main:app --reload
 ```bash
 curl -X POST http://127.0.0.1:8000/tasks \
   -H "Content-Type: application/json" \
-  -d '{"title": "Learn FastAPI", "description": "Build a small backend project"}'
+  -d '{"title": "Learn FastAPI", "description": "Build a backend project"}'
 ```
